@@ -1,0 +1,30 @@
+PARA CREAR UN PROYECTO CON JAVA EE 8 
+SE USARAN LAS SIGUIENTES TECNOLOGIAS Y HERRAMIENTAS 
+NETBEANS 16 CON EL PLUGIN DE JAVA EE 
+TENER EL SERVIDOR GLASSFISH 5 INSTALADO Y AGRGEADO EN NETBEANS
+ORACLE 18C EXPRESS
+AGREGAR EL JDBC 8.JAR EN LA CARPETA LIB DE GLASSFISH 
+
+CREAR PROYECTO - JAVA WITH MAVEN - WEB APPLICATION 
+
+CREAR EL POOL DE CONEXIONES (CONSOLA DE ADMINISTRACION WEB DE GLASSFISH )
+CREAR EL JDBC/RESOURCE  (CONSOLA DE ADMINISTRACION WEB DE GLASSFISH )
+CONFIGURAR LA UNIDAD DE PERSISTENCIA QUE USE EL JDBC/RESOURCE
+CONFIGURAR POM.XML 
+CONFIGURAR EL WEB.XML 
+CREAR EN WEB PAGES SU VISTA
+webpages/VIEWS/INDEX.JSP 
+CREAR TAMBIEN LA PLANTILLA PARA USAR BOOTSTRAP 
+VERIFICAR QUE TODO ESTE BIEN EJECUTANDO EL PROYECTO 
+
+crear los paquetes 
+datos - clases de datos 
+domain - clases entidad 
+servicio - clases de servicio
+web - clases bean, servlet 
+
+crear vistas (usar la plantilla) para la manipulacion de datos usando los bean directamente y/o atraves de peticiones 
+http que coincidan con el servlet... 
+en este punto se puede agregar el uso de java script y el uso de ajax 
+
+el sistema debe ser capaz de realizar CRUD create, read, update, y delete 
